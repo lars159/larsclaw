@@ -1,0 +1,12 @@
+{
+  "name": "larsclaw",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": { "start": "node index.mjs", "dev": "node index.mjs --watch", "cli": "node index.mjs --cli" },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "pino": "^9.0.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
